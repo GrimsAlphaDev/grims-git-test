@@ -5,13 +5,6 @@ if (isset($_POST['submit'])) {
     $name = $_POST['name'];
     $email = $_POST['email'];
     $message = $_POST['message'];
-    
-    $result = [
-        'name' => $name,
-        'email' => $email,
-        'message' => $message
-    ];
-
 }
 
 
@@ -25,7 +18,6 @@ if (isset($_POST['submit'])) {
     <title>Coba Git Remote</title>
 </head>
 <body>
-
     <h1>HELLO</h1>
 
     <form action="" method="post">
