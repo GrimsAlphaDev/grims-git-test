@@ -14,6 +14,7 @@ if (isset($_POST['submit'])) {
 
 }
 
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -55,3 +56,8 @@ if (isset($_POST['submit'])) {
 
 
 <?php endif ?>
+<?php
+
+die('<h1>Thank you for your message!</h1>');
+
+?>
