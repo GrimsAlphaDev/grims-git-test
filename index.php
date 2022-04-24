@@ -1,3 +1,13 @@
+
+<?php
+
+if (isset($_POST['submit'])) {
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $message = $_POST['message'];
+}
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,3 +37,4 @@
 
 </body>
 </html>
+
