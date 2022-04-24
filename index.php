@@ -6,4 +6,6 @@ if (isset($_POST['submit'])) {
     $message = $_POST['message'];
 }
 
+die('<h1>Thank you for your message!</h1>');
+
 ?>
